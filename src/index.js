@@ -15,7 +15,7 @@ import 'tachyons'
 import './index.css'
 
 // Replace the GraphQL endpoint below with your own.
-const client = new ApolloClient({ uri: 'https://opensource.market/graphql' })
+const client = new ApolloClient({ uri: 'https://ENTERYOURWORDPRESSURL.com/graphql' })
 
 ReactDOM.render(
   <ApolloProvider client={client}>
